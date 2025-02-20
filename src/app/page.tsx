@@ -70,7 +70,7 @@ export default function Home() {
       >
         Get New Expression
       </button>
-      <div className="mt-6 p-4 bg-gray-800 rounded whitespace-pre-line">
+      <div className="mt-6 p-4 bg-gray-200 dark:bg-gray-800 rounded whitespace-pre-line">
         {isLoading
           ? "Loading..."
           : expression || "Click the button to get a new expression!"}
